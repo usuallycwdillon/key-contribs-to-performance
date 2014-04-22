@@ -53,15 +53,11 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 ### Approach
 
 * 16 people on a software dev team
-* Calculate measures:
- - Centrality Index
- - Betweenness Index
- - Knowledge Exclusivity Index
- - Task Exclusivity Index
+* Calculate network metrics
 * 1,700 Simulations of team performance
  - 100 simulation runs each case
  - Basecase
- - For each missing member
+ - Each case where one member is missing
 
 ***
 
