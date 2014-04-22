@@ -44,7 +44,7 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 
 --- .class #id 
 
-### Results
+### Big Take-a-way
 
 >Traditional social network measures are generally correlated with employee criticality but they do not always identify critical employees when task assignment and knowledge are taken into account. (p.6)
 
