@@ -53,15 +53,13 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 ### Approach
 
 * 16 people on a software dev team
-* Calculate measures:
- - Centrality Index
- - Betweenness Index
- - Knowledge Exclusivity Index
- - Task Exclusivity Index
-* 1,700 Simulations of team performance
- - 100 simulation runs each case
- - Basecase
- - For each missing member
+* Calculate network metrics
+* 1,700 simulations of _team_ performance
+ - 100 runs each case
+ - Base case
+ - Each case where one member is missing
+* Compare to ''typical'' measures alone and combined 
+* Simulations validate the SNA metrics
 
 ***
 
@@ -72,7 +70,7 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
  - Manaagers (2)
  - Supervisors(4)
  - Engineers (9)
-* Edgelist is ~36 x 2, undirected
+* Edgelist is 36 x 2, undirected
 
 ***
 
@@ -91,6 +89,7 @@ TODO {embed image of network or build one}
 * Degree Betweenness Index
 * Task Exclusivity Index
 * Knowledge Exclusivity Index
+* Knowledge Access Index
 
 ***
 
@@ -127,9 +126,24 @@ $$
 
 ***
 
+### Knowledge Access Index (KAI)
+
+$$
+ X \in {0,1}
+$$
+
+***
+
 ---
 
-no more
+### Results
+
+* Traditional heuristic
+ - Combine CId with CIb
+ - 3 false negatives and 2 false positives
+* Knowledge heuristic
+ - Combine TEI, KEI and KAI
+ - 1 false negative 
 
 
 

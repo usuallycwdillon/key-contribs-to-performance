@@ -59,21 +59,16 @@
     <h3>Approach</h3>
     <ul>
 <li>16 people on a software dev team</li>
-<li>Calculate measures:
+<li>Calculate network metrics</li>
+<li>1,700 simulations of <em>team</em> performance
 
 <ul>
-<li>Centrality Index</li>
-<li>Betweenness Index</li>
-<li>Knowledge Exclusivity Index</li>
-<li>Task Exclusivity Index</li>
+<li>100 runs each case</li>
+<li>Base case</li>
+<li>Each case where one member is missing</li>
 </ul></li>
-<li>1,700 Simulations of team performance
-
-<ul>
-<li>100 simulation runs each case</li>
-<li>Basecase</li>
-<li>For each missing member</li>
-</ul></li>
+<li>Compare to &#39;&#39;typical&#39;&#39; measures alone and combined </li>
+<li>Simulations validate the SNA metrics</li>
 </ul>
 
     <aside class='notes'>
@@ -92,7 +87,7 @@
 <li>Supervisors(4)</li>
 <li>Engineers (9)</li>
 </ul></li>
-<li>Edgelist is ~36 x 2, undirected</li>
+<li>Edgelist is 36 x 2, undirected</li>
 </ul>
 
     <aside class='notes'>
@@ -124,6 +119,7 @@
 <li>Degree Betweenness Index</li>
 <li>Task Exclusivity Index</li>
 <li>Knowledge Exclusivity Index</li>
+<li>Knowledge Access Index</li>
 </ul>
 
     <aside class='notes'>
@@ -175,6 +171,17 @@ $$</p>
     </aside>
    </section>
    <section class='' data-state=''>
+    <h3>Knowledge Access Index (KAI)</h3>
+
+<p>$$
+ X \in {0,1}
+$$</p>
+
+    <aside class='notes'>
+      
+    </aside>
+   </section>
+   <section class='' data-state=''>
     
     <aside class='notes'>
       
@@ -182,8 +189,21 @@ $$</p>
    </section>
 </section>
 <section class='' data-state='' id='slide-5'>
-  
-  <p>no more</p>
+  <h3>Results</h3>
+  <ul>
+<li>Traditional heuristic
+
+<ul>
+<li>Combine CId with CIb</li>
+<li>3 false negatives and 2 false positives</li>
+</ul></li>
+<li>Knowledge heuristic
+
+<ul>
+<li>Combine TEI, KEI and KAI</li>
+<li>1 false negative </li>
+</ul></li>
+</ul>
 
 </section>
     </div>
